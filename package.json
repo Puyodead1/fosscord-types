@@ -1,0 +1,19 @@
+{
+  "name": "@puyodead1/fosscord-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "publish": "pnpm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "cluster": "^0.7.7"
+  }
+}
