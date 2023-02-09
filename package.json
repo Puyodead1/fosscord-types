@@ -2,11 +2,11 @@
   "name": "@puyodead1/fosscord-types",
   "version": "1.0.0",
   "description": "Generated types for fosscord-server",
-  "types": "./types",
-  "main": "src/index.ts",
+  "main": "./dist/index.ts",
+  "types": "./dist/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "publish": "pnpm run build"
+    "prepublish": "tsc"
   },
   "keywords": [],
   "author": "",
